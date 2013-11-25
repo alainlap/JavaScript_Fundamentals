@@ -1,0 +1,58 @@
+
+body {
+	font-family: 'Helvetica', 'sans serif';
+	color: #272822;
+	padding: 20px;
+}
+
+.container {
+	text-align: center;
+}
+
+.row {
+	display:block;
+}
+
+.square {
+	display:inline-block;
+	vertical-align: middle;
+	font-size: 150px;
+	color: #ffffff;
+	margin: 3px;
+	width: 200px;
+	line-height: 200px;
+	height: 200px;
+	background-color: #E8E8E8;
+}
+
+.square.set.x {
+background-color: #5DD2EF;
+}
+
+.square.set.o {
+background-color: #A6DE27;
+}
+
+#win {
+	font-size: 60px;
+	background: #AE81F7;
+	display: block;
+	float: left;
+	position: fixed;
+	top: 40%;
+	left: 40%;
+	padding: 50px;
+	border-radius: 5px;
+}
+
+#draw {
+	font-size: 60px;
+	background: #E6D467;
+	display: block;
+	float: left;
+	position: fixed;
+	top: 40%;
+	left: 40%;
+	padding: 50px;
+	border-radius: 5px;	
+}
